@@ -126,9 +126,9 @@
     
 }
 
-@media screen and (max-width: 1300px) {
-    .gpt3__header-image {
-        flex:0.7;
+@media screen and (max-width: 1400px) {
+    .gpt3__header-image img {
+        height: max-content;
     }
 }
 
@@ -136,7 +136,7 @@
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1270px) {
     .gpt3__header {
         flex-direction: column;
     }
